@@ -1,0 +1,94 @@
+/* Colors and fonts */
+
+body {
+  background-color: #E3E1DA;
+  color: #F1EEE8;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 15px;
+}
+h1, h2, h3 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+h1 {
+	color: #432818;
+	font-size: 25px;
+	font-weight: 400;
+}
+h2 {color: #5A4436;
+	font-size: 19px;
+	font-weight: lighter;
+	font-weight: 400;
+}
+a {
+	font-family: 'Fredericka the Great', cursive;
+	text-decoration: none;
+	color: #E4615D;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: #85221F;
+}
+
+/* Custom design with class (99% of your design)*/
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 600px) {
+	.container{
+		width: 600px;
+	}
+}
+@media (max-width: 450px) {
+	.container{
+		width: 400px;
+	}
+}
+.card-white {
+	background-color: #AB9C8C;
+	padding: 45px;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 24px;
+	margin: 18px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 10%;
+}
+.btn-blue {
+	background-color:  #A0A8A8;
+	color: black;
+	padding: 10px 26px;
+	border-radius: 90px;
+}
+.btn-blue:hover {
+	background-color: #542827;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 12x;
+	margin: 14px;
+}
+.list-inline i {
+	font-size: 43px;
+	color: #A0A8A8;
+}
+.list-inline i:hover {
+	color: #542827;
+}
+
+/* Design adjustements using id (1% design remaining)*/
+#introduction p {
+margin-bottom: 30px;
+}
+
+
+
+
